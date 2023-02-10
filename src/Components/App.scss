@@ -1,0 +1,71 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .containerWrapper {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+
+    .headerTxt {
+      text-transform: capitalize;
+      span {
+        color: red;
+      }
+    }
+
+    .contentBx {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 0.5rem;
+      width: 40rem;
+      margin: 5rem auto;
+      .FaClipboard {
+        cursor: pointer;
+      }
+
+      .showPassBx {
+        display: flex;
+        align-items: center;
+
+        .passInput {
+          width: 20rem;
+          padding: 0.4rem 0;
+          outline: none;
+          text-align: center;
+          color: black;
+          font-weight: bold;
+          &::placeholder {
+            color: black;
+          }
+        }
+      }
+      .passLengthBx {
+        .passRange {
+          width: 3rem;
+          text-align: center;
+        }
+      }
+      .checkbox {
+        display: flex;
+        gap: 0.3rem;
+      }
+      .button {
+        background-color: green;
+        color: white;
+        padding: 0.3rem;
+        margin-top: 1rem;
+        border: none;
+        font-weight: bold;
+        & {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
