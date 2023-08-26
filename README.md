@@ -1,1 +1,1 @@
-## Created a random and complicated passowrd genrator for internet safety
+## Created a random and complicated passowrd generator for internet safety
